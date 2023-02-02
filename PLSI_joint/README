@@ -1,0 +1,1 @@
+PLSI joint model for internal covariates. This model consists of two sub-models: (1) Multivariate linear mixed-effect model and (2) PLSI Cox model
