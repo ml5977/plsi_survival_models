@@ -4,7 +4,7 @@ We provide two versions of PLSI transformation models:
 (1) Time-independent covariates
 - R code for analysis: 'PLSI_ST_analysis_time_independent.R'
 - R code for functions: 'PLSI_ST_functions_time_independent.R'
-- Note: this example uses simulated data based on the below paper (in preparation).
+- Note: this example uses simulated data based on the below paper.
 
 (2) Time-dependent covariates
 - R code for analysis: 'PLSI_ST_analysis_time_dependent.R'
@@ -12,6 +12,6 @@ We provide two versions of PLSI transformation models:
 - Note: this example uses VA data and generates same results with below paper. 
 
 Reference:
-Lee, M., Troxel, A. B., & Liu, M., Partial-linear single-index transformation model with censored data.
+Lee, M., Troxel, A. B., & Liu, M., Partial-linear single-index transformation model with censored data. (In preparation)
 
 Please contact me if you have any questions or suggestions: ML5977@nyu.edu
