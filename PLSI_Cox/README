@@ -1,0 +1,15 @@
+Partial-linear single-index Cox model for possibly time-varying covariates.
+This method can be conducted for both time-independent and time-dependent covariates. 
+For time-dependent covariates, we use Surv(start, last, status).
+For time-independent covariates, we use Surv(time, status).
+
+Our iterative estimating procedure is developed using 'survival' and 'splines2' R packages.
+
+We have two example data (i.e., simulated data).
+Example 1. True link function is linear (i.e., ordinary Cox regression)
+Example 2. True link function is nonlinear (i.e., log curved model: g(t)=log(1+t^2))
+
+Our simulation settings are same in the below paper:
+Lee, M., Troxel, A. B., Kwon, S., Nolan, Anna., & Liu, M. (2021). Partial-Linear Single-Index Cox Regression with Multiple Time-Dependent Covariates. Lifetime Data Science Student Awards, JSM 2021.
+
+NOTE: This is a student award paper. Manuscript in preparation for journal submission. 
